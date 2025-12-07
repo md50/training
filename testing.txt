@@ -1,3 +1,4 @@
 commint new branch 
 poprawka na code review 
 lokalnei poprawka 
+dodal lokal test 
