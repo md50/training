@@ -1,1 +1,2 @@
-commint new branch
+commint new branch 
+poprawka na code review 
