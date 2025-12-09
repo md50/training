@@ -1,5 +1,5 @@
 name: First workflow 
-on: [push workflow_dispatch]
+on: [workflow_dispatch]
 jobs:
   run-shell-commands:
     runs-on: ubuntu-latest
