@@ -12,15 +12,3 @@ jobs:
 
           npm -v
 
-jobs:
-    run-shell-commands:
-       runs-on: ubuntu-latest 
-       steps: 
-        - name: echo string 
-          run: echo "Hello World"
-        - name: Multiline
-          run: |
-            node -v 
-
-            npm -v
-
