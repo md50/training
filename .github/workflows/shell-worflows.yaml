@@ -1,0 +1,16 @@
+name: shell-linux
+on: [push, workflow_dispatch]
+jobs:
+  run-shell-commands:
+    runs-on: latest-ubuntu
+    steps: 
+      - name: echo pwd 
+        run: pwd 
+      - name: echo ls
+        run: ls
+      - name: echo many 
+        run: |
+          ls
+          pwd
+          ps -ef
+
