@@ -11,5 +11,5 @@ jobs:
           node -v
 
           npm -v
-          git pull
-
+          uses: actions/checkout@v6
+          ls 
