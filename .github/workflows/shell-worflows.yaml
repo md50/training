@@ -12,5 +12,4 @@ jobs:
         run: |
           ls
           pwd
-          ps -ef
 
