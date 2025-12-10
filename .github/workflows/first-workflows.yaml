@@ -6,10 +6,12 @@ jobs:
     steps:
       - name: echo string
         run: echo "Hello World"
+      - name: checkout 
+        uses: actions/checkout@v6
       - name: Multiline
         run: |
           node -v
 
           npm -v
-          uses: actions/checkout@v6
+          
           ls 
